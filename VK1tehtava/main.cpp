@@ -15,8 +15,8 @@ int game(int maxnum);
 int main()
 {
     int lkm = game(40);
-    cout << " arvausten lukumaara on " << lkm << endl;
-    /* int arvaus = 0;
+     cout << " arvausten lukumaara on " << lkm << endl;
+   /* int arvaus = 0;
     int arvausten_lkm = 0;
     srand(time(NULL));
     int satunnaisluku = (rand() % 20) + 1;
