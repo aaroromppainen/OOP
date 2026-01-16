@@ -5,7 +5,12 @@ using namespace std;
 
 int main()
 {
-    int maxNum (0);
+    int maxNum (20);
+    GameNew peliOlio(maxNum);
+    peliOlio.play();
+    peliOlio.printGameResult();
+
+
 
     return 0;
 }
